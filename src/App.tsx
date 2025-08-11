@@ -1,35 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { Box, Button, Typography } from '@mui/material';
+// import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <section>
+      <Box component={'aside'} height={100} bgcolor={'#49111c'} p={10}>
+       <Typography color='#fff' variant='h3' fontWeight={600}>Find Your dream Job</Typography>
+       <Typography color='#fff' component='span' variant='body2' fontWeight={600}>Here at KTP Consulting, we have a space for you.</Typography>
+      </Box>
+      <Box component={'article'}  px={{xs :10, lg : 10}} py={4} height={'100vh'}>
+
+      <Button variant="contained">Hello world</Button>
+      </Box>
+    </section>
+  );
 }
 
-export default App
+export default App;
