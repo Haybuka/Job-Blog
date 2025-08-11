@@ -1,0 +1,23 @@
+[
+  {
+    "job_id": 1,
+    "job_title": "React Native Developer",
+    "department": "Tech",
+    "location": {
+      "city": "New York",
+      "state": "New York",
+      "country": "United States"
+    },
+    "employment_type": "Remote",
+    "job_description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, labore asperiores. Alias autem dolores totam dignissimos perferendis neque illum, iure repellendus, dolorem animi est error dicta atque quod eius enim!",
+    "required_qualifications": ["B.SC","3+ Years Experience"],
+    "required_skills": ["Node js","React Js", "Typescript"],
+    "posting_date": "YYYY-MM-DD",
+    "application_deadline": "YYYY-MM-DD",
+    "contact_information": {
+      "name": "",
+      "email": "",
+      "phone": ""
+    }
+  }
+]
