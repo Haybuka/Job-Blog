@@ -23,7 +23,7 @@ const JobCard = ({ job }: JobCardProp) => {
     department,
     location,
     employment_type,
-    posting_date,
+    // posting_date,
     role_summary,
   } = job;
   return (
@@ -53,7 +53,7 @@ const JobCard = ({ job }: JobCardProp) => {
         <Box>
           <Chip label={department} color="primary" variant="outlined" />
         </Box>
-        <Typography variant="body2">{posting_date}</Typography>
+        <Typography variant="body2">{job_id*2 -2}d</Typography>
       </Box>
     </Item>
   );
