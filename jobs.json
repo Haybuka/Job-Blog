@@ -2,7 +2,7 @@
   {
     "job_id": 1,
     "job_title": "React Native Developer",
-    "department": "Tech",
+    "department": "Technology",
     "location": {
       "city": "New York",
       "state": "New York",
@@ -10,14 +10,721 @@
     },
     "employment_type": "Remote",
     "job_description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, labore asperiores. Alias autem dolores totam dignissimos perferendis neque illum, iure repellendus, dolorem animi est error dicta atque quod eius enim!",
-    "required_qualifications": ["B.SC","3+ Years Experience"],
-    "required_skills": ["Node js","React Js", "Typescript"],
-    "posting_date": "YYYY-MM-DD",
+    "required_qualifications": ["B.SC", "3+ Years Experience"],
+    "required_skills": ["Node js", "React Js", "Typescript"],
+    "posting_date": "12d",
     "application_deadline": "YYYY-MM-DD",
     "contact_information": {
       "name": "",
       "email": "",
       "phone": ""
+    },
+    "role_summary": "We are seeking a Frontend Engineer to join our software engineering team. You will play a key role in developing and optimizing frontend applications, ensuring seamless integration with backend systems, and delivering high-quality user experiences. This role offers opportunities to take on increasing responsibility based on experience, contributing to both technical execution and team-wide improvements.",
+    "responsibilities": [
+      "Develop and maintain scalable, high-performance frontend solutions.",
+      "Write clean, maintainable, and well-documented code following industry best practices.",
+      "Collaborate closely with backend engineers, UI/UX designers, and product managers to build cohesive and user-friendly applications.",
+      "Participate in and contribute to code reviews, ensuring code quality, maintainability, and adherence to team standards.",
+      "Optimize frontend performance to ensure fast, responsive user experiences across browsers and devices.",
+      "Implement modern UI/UX best practices to enhance usability and accessibility.",
+      "Contribute to the evolution of frontend architecture, tooling, and development processes.",
+      "Troubleshoot and debug frontend issues, proactively addressing technical debt and improving system reliability.",
+      "Stay up to date with emerging frontend technologies and advocate for relevant improvements."
+    ],
+    "qualifications": {
+      "required": [
+        "Experience in frontend software engineering, with a track record of delivering production-ready applications.",
+        "Bachelor’s degree in Computer Science, Engineering, or a related field, or equivalent work experience.",
+        "Proficiency in HTML, CSS, JavaScript, and React.",
+        "Understanding of frontend build tools, package managers, and CI/CD pipelines.",
+        "Strong problem-solving skills and the ability to debug complex frontend issues.",
+        "Effective communication skills, with the ability to collaborate across engineering, product, and design teams.",
+        "Passion for building intuitive, high-quality user interfaces and continuously improving frontend performance."
+      ],
+      "nice_to_have": [
+        "Experience working with TypeScript.",
+        "Knowledge of frontend testing frameworks, especially Playwright.",
+        "Familiarity with REST or other API interaction patterns.",
+        "Exposure to design systems and component-based architecture."
+      ]
+    },
+    "compensation": {
+      "currency": "USD",
+      "range_min": 140000,
+      "range_max": 180000,
+      "notes": "The actual offer, reflecting the total compensation package and benefits, will be determined by a number of factors including the applicant's experience, knowledge, skills, and abilities, as well as internal equity among our team."
+    }
+  },
+  {
+    "job_id": 2,
+    "job_title": "React Native Developer",
+    "department": "Business",
+    "location": {
+      "city": "New York",
+      "state": "New York",
+      "country": "United States"
+    },
+    "employment_type": "Remote",
+    "job_description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, labore asperiores. Alias autem dolores totam dignissimos perferendis neque illum, iure repellendus, dolorem animi est error dicta atque quod eius enim!",
+    "required_qualifications": ["B.SC", "3+ Years Experience"],
+    "required_skills": ["Node js", "React Js", "Typescript"],
+    "posting_date": "12d",
+    "application_deadline": "YYYY-MM-DD",
+    "contact_information": {
+      "name": "",
+      "email": "",
+      "phone": ""
+    },
+    "role_summary": "We are seeking a Frontend Engineer to join our software engineering team. You will play a key role in developing and optimizing frontend applications, ensuring seamless integration with backend systems, and delivering high-quality user experiences. This role offers opportunities to take on increasing responsibility based on experience, contributing to both technical execution and team-wide improvements.",
+    "responsibilities": [
+      "Develop and maintain scalable, high-performance frontend solutions.",
+      "Write clean, maintainable, and well-documented code following industry best practices.",
+      "Collaborate closely with backend engineers, UI/UX designers, and product managers to build cohesive and user-friendly applications.",
+      "Participate in and contribute to code reviews, ensuring code quality, maintainability, and adherence to team standards.",
+      "Optimize frontend performance to ensure fast, responsive user experiences across browsers and devices.",
+      "Implement modern UI/UX best practices to enhance usability and accessibility.",
+      "Contribute to the evolution of frontend architecture, tooling, and development processes.",
+      "Troubleshoot and debug frontend issues, proactively addressing technical debt and improving system reliability.",
+      "Stay up to date with emerging frontend technologies and advocate for relevant improvements."
+    ],
+    "qualifications": {
+      "required": [
+        "Experience in frontend software engineering, with a track record of delivering production-ready applications.",
+        "Bachelor’s degree in Computer Science, Engineering, or a related field, or equivalent work experience.",
+        "Proficiency in HTML, CSS, JavaScript, and React.",
+        "Understanding of frontend build tools, package managers, and CI/CD pipelines.",
+        "Strong problem-solving skills and the ability to debug complex frontend issues.",
+        "Effective communication skills, with the ability to collaborate across engineering, product, and design teams.",
+        "Passion for building intuitive, high-quality user interfaces and continuously improving frontend performance."
+      ],
+      "nice_to_have": [
+        "Experience working with TypeScript.",
+        "Knowledge of frontend testing frameworks, especially Playwright.",
+        "Familiarity with REST or other API interaction patterns.",
+        "Exposure to design systems and component-based architecture."
+      ]
+    },
+    "compensation": {
+      "currency": "USD",
+      "range_min": 140000,
+      "range_max": 180000,
+      "notes": "The actual offer, reflecting the total compensation package and benefits, will be determined by a number of factors including the applicant's experience, knowledge, skills, and abilities, as well as internal equity among our team."
+    }
+  },
+  {
+    "job_id": 3,
+    "job_title": "React Native Developer",
+    "department": "Operations",
+    "location": {
+      "city": "New York",
+      "state": "New York",
+      "country": "United States"
+    },
+    "employment_type": "Remote",
+    "job_description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, labore asperiores. Alias autem dolores totam dignissimos perferendis neque illum, iure repellendus, dolorem animi est error dicta atque quod eius enim!",
+    "required_qualifications": ["B.SC", "3+ Years Experience"],
+    "required_skills": ["Node js", "React Js", "Typescript"],
+    "posting_date": "12d",
+    "application_deadline": "YYYY-MM-DD",
+    "contact_information": {
+      "name": "",
+      "email": "",
+      "phone": ""
+    },
+    "role_summary": "We are seeking a Frontend Engineer to join our software engineering team. You will play a key role in developing and optimizing frontend applications, ensuring seamless integration with backend systems, and delivering high-quality user experiences. This role offers opportunities to take on increasing responsibility based on experience, contributing to both technical execution and team-wide improvements.",
+    "responsibilities": [
+      "Develop and maintain scalable, high-performance frontend solutions.",
+      "Write clean, maintainable, and well-documented code following industry best practices.",
+      "Collaborate closely with backend engineers, UI/UX designers, and product managers to build cohesive and user-friendly applications.",
+      "Participate in and contribute to code reviews, ensuring code quality, maintainability, and adherence to team standards.",
+      "Optimize frontend performance to ensure fast, responsive user experiences across browsers and devices.",
+      "Implement modern UI/UX best practices to enhance usability and accessibility.",
+      "Contribute to the evolution of frontend architecture, tooling, and development processes.",
+      "Troubleshoot and debug frontend issues, proactively addressing technical debt and improving system reliability.",
+      "Stay up to date with emerging frontend technologies and advocate for relevant improvements."
+    ],
+    "qualifications": {
+      "required": [
+        "Experience in frontend software engineering, with a track record of delivering production-ready applications.",
+        "Bachelor’s degree in Computer Science, Engineering, or a related field, or equivalent work experience.",
+        "Proficiency in HTML, CSS, JavaScript, and React.",
+        "Understanding of frontend build tools, package managers, and CI/CD pipelines.",
+        "Strong problem-solving skills and the ability to debug complex frontend issues.",
+        "Effective communication skills, with the ability to collaborate across engineering, product, and design teams.",
+        "Passion for building intuitive, high-quality user interfaces and continuously improving frontend performance."
+      ],
+      "nice_to_have": [
+        "Experience working with TypeScript.",
+        "Knowledge of frontend testing frameworks, especially Playwright.",
+        "Familiarity with REST or other API interaction patterns.",
+        "Exposure to design systems and component-based architecture."
+      ]
+    },
+    "compensation": {
+      "currency": "USD",
+      "range_min": 140000,
+      "range_max": 180000,
+      "notes": "The actual offer, reflecting the total compensation package and benefits, will be determined by a number of factors including the applicant's experience, knowledge, skills, and abilities, as well as internal equity among our team."
+    }
+  },
+  {
+    "job_id": 4,
+    "job_title": "React Native Developer",
+    "department": "Technology",
+    "location": {
+      "city": "New York",
+      "state": "New York",
+      "country": "United States"
+    },
+    "employment_type": "Remote",
+    "job_description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, labore asperiores. Alias autem dolores totam dignissimos perferendis neque illum, iure repellendus, dolorem animi est error dicta atque quod eius enim!",
+    "required_qualifications": ["B.SC", "3+ Years Experience"],
+    "required_skills": ["Node js", "React Js", "Typescript"],
+    "posting_date": "12d",
+    "application_deadline": "YYYY-MM-DD",
+    "contact_information": {
+      "name": "",
+      "email": "",
+      "phone": ""
+    },
+    "role_summary": "We are seeking a Frontend Engineer to join our software engineering team. You will play a key role in developing and optimizing frontend applications, ensuring seamless integration with backend systems, and delivering high-quality user experiences. This role offers opportunities to take on increasing responsibility based on experience, contributing to both technical execution and team-wide improvements.",
+    "responsibilities": [
+      "Develop and maintain scalable, high-performance frontend solutions.",
+      "Write clean, maintainable, and well-documented code following industry best practices.",
+      "Collaborate closely with backend engineers, UI/UX designers, and product managers to build cohesive and user-friendly applications.",
+      "Participate in and contribute to code reviews, ensuring code quality, maintainability, and adherence to team standards.",
+      "Optimize frontend performance to ensure fast, responsive user experiences across browsers and devices.",
+      "Implement modern UI/UX best practices to enhance usability and accessibility.",
+      "Contribute to the evolution of frontend architecture, tooling, and development processes.",
+      "Troubleshoot and debug frontend issues, proactively addressing technical debt and improving system reliability.",
+      "Stay up to date with emerging frontend technologies and advocate for relevant improvements."
+    ],
+    "qualifications": {
+      "required": [
+        "Experience in frontend software engineering, with a track record of delivering production-ready applications.",
+        "Bachelor’s degree in Computer Science, Engineering, or a related field, or equivalent work experience.",
+        "Proficiency in HTML, CSS, JavaScript, and React.",
+        "Understanding of frontend build tools, package managers, and CI/CD pipelines.",
+        "Strong problem-solving skills and the ability to debug complex frontend issues.",
+        "Effective communication skills, with the ability to collaborate across engineering, product, and design teams.",
+        "Passion for building intuitive, high-quality user interfaces and continuously improving frontend performance."
+      ],
+      "nice_to_have": [
+        "Experience working with TypeScript.",
+        "Knowledge of frontend testing frameworks, especially Playwright.",
+        "Familiarity with REST or other API interaction patterns.",
+        "Exposure to design systems and component-based architecture."
+      ]
+    },
+    "compensation": {
+      "currency": "USD",
+      "range_min": 140000,
+      "range_max": 180000,
+      "notes": "The actual offer, reflecting the total compensation package and benefits, will be determined by a number of factors including the applicant's experience, knowledge, skills, and abilities, as well as internal equity among our team."
+    }
+  },
+  {
+    "job_id": 5,
+    "job_title": "React Native Developer",
+    "department": "Technology",
+    "location": {
+      "city": "New York",
+      "state": "New York",
+      "country": "United States"
+    },
+    "employment_type": "Remote",
+    "job_description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, labore asperiores. Alias autem dolores totam dignissimos perferendis neque illum, iure repellendus, dolorem animi est error dicta atque quod eius enim!",
+    "required_qualifications": ["B.SC", "3+ Years Experience"],
+    "required_skills": ["Node js", "React Js", "Typescript"],
+    "posting_date": "12d",
+    "application_deadline": "YYYY-MM-DD",
+    "contact_information": {
+      "name": "",
+      "email": "",
+      "phone": ""
+    },
+    "role_summary": "We are seeking a Frontend Engineer to join our software engineering team. You will play a key role in developing and optimizing frontend applications, ensuring seamless integration with backend systems, and delivering high-quality user experiences. This role offers opportunities to take on increasing responsibility based on experience, contributing to both technical execution and team-wide improvements.",
+    "responsibilities": [
+      "Develop and maintain scalable, high-performance frontend solutions.",
+      "Write clean, maintainable, and well-documented code following industry best practices.",
+      "Collaborate closely with backend engineers, UI/UX designers, and product managers to build cohesive and user-friendly applications.",
+      "Participate in and contribute to code reviews, ensuring code quality, maintainability, and adherence to team standards.",
+      "Optimize frontend performance to ensure fast, responsive user experiences across browsers and devices.",
+      "Implement modern UI/UX best practices to enhance usability and accessibility.",
+      "Contribute to the evolution of frontend architecture, tooling, and development processes.",
+      "Troubleshoot and debug frontend issues, proactively addressing technical debt and improving system reliability.",
+      "Stay up to date with emerging frontend technologies and advocate for relevant improvements."
+    ],
+    "qualifications": {
+      "required": [
+        "Experience in frontend software engineering, with a track record of delivering production-ready applications.",
+        "Bachelor’s degree in Computer Science, Engineering, or a related field, or equivalent work experience.",
+        "Proficiency in HTML, CSS, JavaScript, and React.",
+        "Understanding of frontend build tools, package managers, and CI/CD pipelines.",
+        "Strong problem-solving skills and the ability to debug complex frontend issues.",
+        "Effective communication skills, with the ability to collaborate across engineering, product, and design teams.",
+        "Passion for building intuitive, high-quality user interfaces and continuously improving frontend performance."
+      ],
+      "nice_to_have": [
+        "Experience working with TypeScript.",
+        "Knowledge of frontend testing frameworks, especially Playwright.",
+        "Familiarity with REST or other API interaction patterns.",
+        "Exposure to design systems and component-based architecture."
+      ]
+    },
+    "compensation": {
+      "currency": "USD",
+      "range_min": 140000,
+      "range_max": 180000,
+      "notes": "The actual offer, reflecting the total compensation package and benefits, will be determined by a number of factors including the applicant's experience, knowledge, skills, and abilities, as well as internal equity among our team."
+    }
+  },
+  {
+    "job_id": 6,
+    "job_title": "React Native Developer",
+    "department": "Technology",
+    "location": {
+      "city": "New York",
+      "state": "New York",
+      "country": "United States"
+    },
+    "employment_type": "Remote",
+    "job_description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, labore asperiores. Alias autem dolores totam dignissimos perferendis neque illum, iure repellendus, dolorem animi est error dicta atque quod eius enim!",
+    "required_qualifications": ["B.SC", "3+ Years Experience"],
+    "required_skills": ["Node js", "React Js", "Typescript"],
+    "posting_date": "12d",
+    "application_deadline": "YYYY-MM-DD",
+    "contact_information": {
+      "name": "",
+      "email": "",
+      "phone": ""
+    },
+    "role_summary": "We are seeking a Frontend Engineer to join our software engineering team. You will play a key role in developing and optimizing frontend applications, ensuring seamless integration with backend systems, and delivering high-quality user experiences. This role offers opportunities to take on increasing responsibility based on experience, contributing to both technical execution and team-wide improvements.",
+    "responsibilities": [
+      "Develop and maintain scalable, high-performance frontend solutions.",
+      "Write clean, maintainable, and well-documented code following industry best practices.",
+      "Collaborate closely with backend engineers, UI/UX designers, and product managers to build cohesive and user-friendly applications.",
+      "Participate in and contribute to code reviews, ensuring code quality, maintainability, and adherence to team standards.",
+      "Optimize frontend performance to ensure fast, responsive user experiences across browsers and devices.",
+      "Implement modern UI/UX best practices to enhance usability and accessibility.",
+      "Contribute to the evolution of frontend architecture, tooling, and development processes.",
+      "Troubleshoot and debug frontend issues, proactively addressing technical debt and improving system reliability.",
+      "Stay up to date with emerging frontend technologies and advocate for relevant improvements."
+    ],
+    "qualifications": {
+      "required": [
+        "Experience in frontend software engineering, with a track record of delivering production-ready applications.",
+        "Bachelor’s degree in Computer Science, Engineering, or a related field, or equivalent work experience.",
+        "Proficiency in HTML, CSS, JavaScript, and React.",
+        "Understanding of frontend build tools, package managers, and CI/CD pipelines.",
+        "Strong problem-solving skills and the ability to debug complex frontend issues.",
+        "Effective communication skills, with the ability to collaborate across engineering, product, and design teams.",
+        "Passion for building intuitive, high-quality user interfaces and continuously improving frontend performance."
+      ],
+      "nice_to_have": [
+        "Experience working with TypeScript.",
+        "Knowledge of frontend testing frameworks, especially Playwright.",
+        "Familiarity with REST or other API interaction patterns.",
+        "Exposure to design systems and component-based architecture."
+      ]
+    },
+    "compensation": {
+      "currency": "USD",
+      "range_min": 140000,
+      "range_max": 180000,
+      "notes": "The actual offer, reflecting the total compensation package and benefits, will be determined by a number of factors including the applicant's experience, knowledge, skills, and abilities, as well as internal equity among our team."
+    }
+  },
+  {
+    "job_id": 7,
+    "job_title": "React Native Developer",
+    "department": "Technology",
+    "location": {
+      "city": "New York",
+      "state": "New York",
+      "country": "United States"
+    },
+    "employment_type": "Remote",
+    "job_description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, labore asperiores. Alias autem dolores totam dignissimos perferendis neque illum, iure repellendus, dolorem animi est error dicta atque quod eius enim!",
+    "required_qualifications": ["B.SC", "3+ Years Experience"],
+    "required_skills": ["Node js", "React Js", "Typescript"],
+    "posting_date": "12d",
+    "application_deadline": "YYYY-MM-DD",
+    "contact_information": {
+      "name": "",
+      "email": "",
+      "phone": ""
+    },
+    "role_summary": "We are seeking a Frontend Engineer to join our software engineering team. You will play a key role in developing and optimizing frontend applications, ensuring seamless integration with backend systems, and delivering high-quality user experiences. This role offers opportunities to take on increasing responsibility based on experience, contributing to both technical execution and team-wide improvements.",
+    "responsibilities": [
+      "Develop and maintain scalable, high-performance frontend solutions.",
+      "Write clean, maintainable, and well-documented code following industry best practices.",
+      "Collaborate closely with backend engineers, UI/UX designers, and product managers to build cohesive and user-friendly applications.",
+      "Participate in and contribute to code reviews, ensuring code quality, maintainability, and adherence to team standards.",
+      "Optimize frontend performance to ensure fast, responsive user experiences across browsers and devices.",
+      "Implement modern UI/UX best practices to enhance usability and accessibility.",
+      "Contribute to the evolution of frontend architecture, tooling, and development processes.",
+      "Troubleshoot and debug frontend issues, proactively addressing technical debt and improving system reliability.",
+      "Stay up to date with emerging frontend technologies and advocate for relevant improvements."
+    ],
+    "qualifications": {
+      "required": [
+        "Experience in frontend software engineering, with a track record of delivering production-ready applications.",
+        "Bachelor’s degree in Computer Science, Engineering, or a related field, or equivalent work experience.",
+        "Proficiency in HTML, CSS, JavaScript, and React.",
+        "Understanding of frontend build tools, package managers, and CI/CD pipelines.",
+        "Strong problem-solving skills and the ability to debug complex frontend issues.",
+        "Effective communication skills, with the ability to collaborate across engineering, product, and design teams.",
+        "Passion for building intuitive, high-quality user interfaces and continuously improving frontend performance."
+      ],
+      "nice_to_have": [
+        "Experience working with TypeScript.",
+        "Knowledge of frontend testing frameworks, especially Playwright.",
+        "Familiarity with REST or other API interaction patterns.",
+        "Exposure to design systems and component-based architecture."
+      ]
+    },
+    "compensation": {
+      "currency": "USD",
+      "range_min": 140000,
+      "range_max": 180000,
+      "notes": "The actual offer, reflecting the total compensation package and benefits, will be determined by a number of factors including the applicant's experience, knowledge, skills, and abilities, as well as internal equity among our team."
+    }
+  },
+  {
+    "job_id": 8,
+    "job_title": "React Native Developer",
+    "department": "Technology",
+    "location": {
+      "city": "New York",
+      "state": "New York",
+      "country": "United States"
+    },
+    "employment_type": "Remote",
+    "job_description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, labore asperiores. Alias autem dolores totam dignissimos perferendis neque illum, iure repellendus, dolorem animi est error dicta atque quod eius enim!",
+    "required_qualifications": ["B.SC", "3+ Years Experience"],
+    "required_skills": ["Node js", "React Js", "Typescript"],
+    "posting_date": "12d",
+    "application_deadline": "YYYY-MM-DD",
+    "contact_information": {
+      "name": "",
+      "email": "",
+      "phone": ""
+    },
+    "role_summary": "We are seeking a Frontend Engineer to join our software engineering team. You will play a key role in developing and optimizing frontend applications, ensuring seamless integration with backend systems, and delivering high-quality user experiences. This role offers opportunities to take on increasing responsibility based on experience, contributing to both technical execution and team-wide improvements.",
+    "responsibilities": [
+      "Develop and maintain scalable, high-performance frontend solutions.",
+      "Write clean, maintainable, and well-documented code following industry best practices.",
+      "Collaborate closely with backend engineers, UI/UX designers, and product managers to build cohesive and user-friendly applications.",
+      "Participate in and contribute to code reviews, ensuring code quality, maintainability, and adherence to team standards.",
+      "Optimize frontend performance to ensure fast, responsive user experiences across browsers and devices.",
+      "Implement modern UI/UX best practices to enhance usability and accessibility.",
+      "Contribute to the evolution of frontend architecture, tooling, and development processes.",
+      "Troubleshoot and debug frontend issues, proactively addressing technical debt and improving system reliability.",
+      "Stay up to date with emerging frontend technologies and advocate for relevant improvements."
+    ],
+    "qualifications": {
+      "required": [
+        "Experience in frontend software engineering, with a track record of delivering production-ready applications.",
+        "Bachelor’s degree in Computer Science, Engineering, or a related field, or equivalent work experience.",
+        "Proficiency in HTML, CSS, JavaScript, and React.",
+        "Understanding of frontend build tools, package managers, and CI/CD pipelines.",
+        "Strong problem-solving skills and the ability to debug complex frontend issues.",
+        "Effective communication skills, with the ability to collaborate across engineering, product, and design teams.",
+        "Passion for building intuitive, high-quality user interfaces and continuously improving frontend performance."
+      ],
+      "nice_to_have": [
+        "Experience working with TypeScript.",
+        "Knowledge of frontend testing frameworks, especially Playwright.",
+        "Familiarity with REST or other API interaction patterns.",
+        "Exposure to design systems and component-based architecture."
+      ]
+    },
+    "compensation": {
+      "currency": "USD",
+      "range_min": 140000,
+      "range_max": 180000,
+      "notes": "The actual offer, reflecting the total compensation package and benefits, will be determined by a number of factors including the applicant's experience, knowledge, skills, and abilities, as well as internal equity among our team."
+    }
+  },
+  {
+    "job_id": 9,
+    "job_title": "React Native Developer",
+    "department": "Technology",
+    "location": {
+      "city": "New York",
+      "state": "New York",
+      "country": "United States"
+    },
+    "employment_type": "Remote",
+    "job_description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, labore asperiores. Alias autem dolores totam dignissimos perferendis neque illum, iure repellendus, dolorem animi est error dicta atque quod eius enim!",
+    "required_qualifications": ["B.SC", "3+ Years Experience"],
+    "required_skills": ["Node js", "React Js", "Typescript"],
+    "posting_date": "12d",
+    "application_deadline": "YYYY-MM-DD",
+    "contact_information": {
+      "name": "",
+      "email": "",
+      "phone": ""
+    },
+    "role_summary": "We are seeking a Frontend Engineer to join our software engineering team. You will play a key role in developing and optimizing frontend applications, ensuring seamless integration with backend systems, and delivering high-quality user experiences. This role offers opportunities to take on increasing responsibility based on experience, contributing to both technical execution and team-wide improvements.",
+    "responsibilities": [
+      "Develop and maintain scalable, high-performance frontend solutions.",
+      "Write clean, maintainable, and well-documented code following industry best practices.",
+      "Collaborate closely with backend engineers, UI/UX designers, and product managers to build cohesive and user-friendly applications.",
+      "Participate in and contribute to code reviews, ensuring code quality, maintainability, and adherence to team standards.",
+      "Optimize frontend performance to ensure fast, responsive user experiences across browsers and devices.",
+      "Implement modern UI/UX best practices to enhance usability and accessibility.",
+      "Contribute to the evolution of frontend architecture, tooling, and development processes.",
+      "Troubleshoot and debug frontend issues, proactively addressing technical debt and improving system reliability.",
+      "Stay up to date with emerging frontend technologies and advocate for relevant improvements."
+    ],
+    "qualifications": {
+      "required": [
+        "Experience in frontend software engineering, with a track record of delivering production-ready applications.",
+        "Bachelor’s degree in Computer Science, Engineering, or a related field, or equivalent work experience.",
+        "Proficiency in HTML, CSS, JavaScript, and React.",
+        "Understanding of frontend build tools, package managers, and CI/CD pipelines.",
+        "Strong problem-solving skills and the ability to debug complex frontend issues.",
+        "Effective communication skills, with the ability to collaborate across engineering, product, and design teams.",
+        "Passion for building intuitive, high-quality user interfaces and continuously improving frontend performance."
+      ],
+      "nice_to_have": [
+        "Experience working with TypeScript.",
+        "Knowledge of frontend testing frameworks, especially Playwright.",
+        "Familiarity with REST or other API interaction patterns.",
+        "Exposure to design systems and component-based architecture."
+      ]
+    },
+    "compensation": {
+      "currency": "USD",
+      "range_min": 140000,
+      "range_max": 180000,
+      "notes": "The actual offer, reflecting the total compensation package and benefits, will be determined by a number of factors including the applicant's experience, knowledge, skills, and abilities, as well as internal equity among our team."
+    }
+  },
+  {
+    "job_id": 10,
+    "job_title": "React Native Developer",
+    "department": "Technology",
+    "location": {
+      "city": "New York",
+      "state": "New York",
+      "country": "United States"
+    },
+    "employment_type": "Remote",
+    "job_description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, labore asperiores. Alias autem dolores totam dignissimos perferendis neque illum, iure repellendus, dolorem animi est error dicta atque quod eius enim!",
+    "required_qualifications": ["B.SC", "3+ Years Experience"],
+    "required_skills": ["Node js", "React Js", "Typescript"],
+    "posting_date": "12d",
+    "application_deadline": "YYYY-MM-DD",
+    "contact_information": {
+      "name": "",
+      "email": "",
+      "phone": ""
+    },
+    "role_summary": "We are seeking a Frontend Engineer to join our software engineering team. You will play a key role in developing and optimizing frontend applications, ensuring seamless integration with backend systems, and delivering high-quality user experiences. This role offers opportunities to take on increasing responsibility based on experience, contributing to both technical execution and team-wide improvements.",
+    "responsibilities": [
+      "Develop and maintain scalable, high-performance frontend solutions.",
+      "Write clean, maintainable, and well-documented code following industry best practices.",
+      "Collaborate closely with backend engineers, UI/UX designers, and product managers to build cohesive and user-friendly applications.",
+      "Participate in and contribute to code reviews, ensuring code quality, maintainability, and adherence to team standards.",
+      "Optimize frontend performance to ensure fast, responsive user experiences across browsers and devices.",
+      "Implement modern UI/UX best practices to enhance usability and accessibility.",
+      "Contribute to the evolution of frontend architecture, tooling, and development processes.",
+      "Troubleshoot and debug frontend issues, proactively addressing technical debt and improving system reliability.",
+      "Stay up to date with emerging frontend technologies and advocate for relevant improvements."
+    ],
+    "qualifications": {
+      "required": [
+        "Experience in frontend software engineering, with a track record of delivering production-ready applications.",
+        "Bachelor’s degree in Computer Science, Engineering, or a related field, or equivalent work experience.",
+        "Proficiency in HTML, CSS, JavaScript, and React.",
+        "Understanding of frontend build tools, package managers, and CI/CD pipelines.",
+        "Strong problem-solving skills and the ability to debug complex frontend issues.",
+        "Effective communication skills, with the ability to collaborate across engineering, product, and design teams.",
+        "Passion for building intuitive, high-quality user interfaces and continuously improving frontend performance."
+      ],
+      "nice_to_have": [
+        "Experience working with TypeScript.",
+        "Knowledge of frontend testing frameworks, especially Playwright.",
+        "Familiarity with REST or other API interaction patterns.",
+        "Exposure to design systems and component-based architecture."
+      ]
+    },
+    "compensation": {
+      "currency": "USD",
+      "range_min": 140000,
+      "range_max": 180000,
+      "notes": "The actual offer, reflecting the total compensation package and benefits, will be determined by a number of factors including the applicant's experience, knowledge, skills, and abilities, as well as internal equity among our team."
+    }
+  },
+  {
+    "job_id": 11,
+    "job_title": "React Native Developer",
+    "department": "Technology",
+    "location": {
+      "city": "New York",
+      "state": "New York",
+      "country": "United States"
+    },
+    "employment_type": "Remote",
+    "job_description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, labore asperiores. Alias autem dolores totam dignissimos perferendis neque illum, iure repellendus, dolorem animi est error dicta atque quod eius enim!",
+    "required_qualifications": ["B.SC", "3+ Years Experience"],
+    "required_skills": ["Node js", "React Js", "Typescript"],
+    "posting_date": "12d",
+    "application_deadline": "YYYY-MM-DD",
+    "contact_information": {
+      "name": "",
+      "email": "",
+      "phone": ""
+    },
+    "role_summary": "We are seeking a Frontend Engineer to join our software engineering team. You will play a key role in developing and optimizing frontend applications, ensuring seamless integration with backend systems, and delivering high-quality user experiences. This role offers opportunities to take on increasing responsibility based on experience, contributing to both technical execution and team-wide improvements.",
+    "responsibilities": [
+      "Develop and maintain scalable, high-performance frontend solutions.",
+      "Write clean, maintainable, and well-documented code following industry best practices.",
+      "Collaborate closely with backend engineers, UI/UX designers, and product managers to build cohesive and user-friendly applications.",
+      "Participate in and contribute to code reviews, ensuring code quality, maintainability, and adherence to team standards.",
+      "Optimize frontend performance to ensure fast, responsive user experiences across browsers and devices.",
+      "Implement modern UI/UX best practices to enhance usability and accessibility.",
+      "Contribute to the evolution of frontend architecture, tooling, and development processes.",
+      "Troubleshoot and debug frontend issues, proactively addressing technical debt and improving system reliability.",
+      "Stay up to date with emerging frontend technologies and advocate for relevant improvements."
+    ],
+    "qualifications": {
+      "required": [
+        "Experience in frontend software engineering, with a track record of delivering production-ready applications.",
+        "Bachelor’s degree in Computer Science, Engineering, or a related field, or equivalent work experience.",
+        "Proficiency in HTML, CSS, JavaScript, and React.",
+        "Understanding of frontend build tools, package managers, and CI/CD pipelines.",
+        "Strong problem-solving skills and the ability to debug complex frontend issues.",
+        "Effective communication skills, with the ability to collaborate across engineering, product, and design teams.",
+        "Passion for building intuitive, high-quality user interfaces and continuously improving frontend performance."
+      ],
+      "nice_to_have": [
+        "Experience working with TypeScript.",
+        "Knowledge of frontend testing frameworks, especially Playwright.",
+        "Familiarity with REST or other API interaction patterns.",
+        "Exposure to design systems and component-based architecture."
+      ]
+    },
+    "compensation": {
+      "currency": "USD",
+      "range_min": 140000,
+      "range_max": 180000,
+      "notes": "The actual offer, reflecting the total compensation package and benefits, will be determined by a number of factors including the applicant's experience, knowledge, skills, and abilities, as well as internal equity among our team."
+    }
+  },
+  {
+    "job_id": 12,
+    "job_title": "React Native Developer",
+    "department": "Technology",
+    "location": {
+      "city": "New York",
+      "state": "New York",
+      "country": "United States"
+    },
+    "employment_type": "Remote",
+    "job_description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, labore asperiores. Alias autem dolores totam dignissimos perferendis neque illum, iure repellendus, dolorem animi est error dicta atque quod eius enim!",
+    "required_qualifications": ["B.SC", "3+ Years Experience"],
+    "required_skills": ["Node js", "React Js", "Typescript"],
+    "posting_date": "12d",
+    "application_deadline": "YYYY-MM-DD",
+    "contact_information": {
+      "name": "",
+      "email": "",
+      "phone": ""
+    },
+    "role_summary": "We are seeking a Frontend Engineer to join our software engineering team. You will play a key role in developing and optimizing frontend applications, ensuring seamless integration with backend systems, and delivering high-quality user experiences. This role offers opportunities to take on increasing responsibility based on experience, contributing to both technical execution and team-wide improvements.",
+    "responsibilities": [
+      "Develop and maintain scalable, high-performance frontend solutions.",
+      "Write clean, maintainable, and well-documented code following industry best practices.",
+      "Collaborate closely with backend engineers, UI/UX designers, and product managers to build cohesive and user-friendly applications.",
+      "Participate in and contribute to code reviews, ensuring code quality, maintainability, and adherence to team standards.",
+      "Optimize frontend performance to ensure fast, responsive user experiences across browsers and devices.",
+      "Implement modern UI/UX best practices to enhance usability and accessibility.",
+      "Contribute to the evolution of frontend architecture, tooling, and development processes.",
+      "Troubleshoot and debug frontend issues, proactively addressing technical debt and improving system reliability.",
+      "Stay up to date with emerging frontend technologies and advocate for relevant improvements."
+    ],
+    "qualifications": {
+      "required": [
+        "Experience in frontend software engineering, with a track record of delivering production-ready applications.",
+        "Bachelor’s degree in Computer Science, Engineering, or a related field, or equivalent work experience.",
+        "Proficiency in HTML, CSS, JavaScript, and React.",
+        "Understanding of frontend build tools, package managers, and CI/CD pipelines.",
+        "Strong problem-solving skills and the ability to debug complex frontend issues.",
+        "Effective communication skills, with the ability to collaborate across engineering, product, and design teams.",
+        "Passion for building intuitive, high-quality user interfaces and continuously improving frontend performance."
+      ],
+      "nice_to_have": [
+        "Experience working with TypeScript.",
+        "Knowledge of frontend testing frameworks, especially Playwright.",
+        "Familiarity with REST or other API interaction patterns.",
+        "Exposure to design systems and component-based architecture."
+      ]
+    },
+    "compensation": {
+      "currency": "USD",
+      "range_min": 140000,
+      "range_max": 180000,
+      "notes": "The actual offer, reflecting the total compensation package and benefits, will be determined by a number of factors including the applicant's experience, knowledge, skills, and abilities, as well as internal equity among our team."
+    }
+  },
+  {
+    "job_id": 13,
+    "job_title": "React Native Developer",
+    "department": "Technology",
+    "location": {
+      "city": "New York",
+      "state": "New York",
+      "country": "United States"
+    },
+    "employment_type": "Remote",
+    "job_description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, labore asperiores. Alias autem dolores totam dignissimos perferendis neque illum, iure repellendus, dolorem animi est error dicta atque quod eius enim!",
+    "required_qualifications": ["B.SC", "3+ Years Experience"],
+    "required_skills": ["Node js", "React Js", "Typescript"],
+    "posting_date": "12d",
+    "application_deadline": "YYYY-MM-DD",
+    "contact_information": {
+      "name": "",
+      "email": "",
+      "phone": ""
+    },
+    "role_summary": "We are seeking a Frontend Engineer to join our software engineering team. You will play a key role in developing and optimizing frontend applications, ensuring seamless integration with backend systems, and delivering high-quality user experiences. This role offers opportunities to take on increasing responsibility based on experience, contributing to both technical execution and team-wide improvements.",
+    "responsibilities": [
+      "Develop and maintain scalable, high-performance frontend solutions.",
+      "Write clean, maintainable, and well-documented code following industry best practices.",
+      "Collaborate closely with backend engineers, UI/UX designers, and product managers to build cohesive and user-friendly applications.",
+      "Participate in and contribute to code reviews, ensuring code quality, maintainability, and adherence to team standards.",
+      "Optimize frontend performance to ensure fast, responsive user experiences across browsers and devices.",
+      "Implement modern UI/UX best practices to enhance usability and accessibility.",
+      "Contribute to the evolution of frontend architecture, tooling, and development processes.",
+      "Troubleshoot and debug frontend issues, proactively addressing technical debt and improving system reliability.",
+      "Stay up to date with emerging frontend technologies and advocate for relevant improvements."
+    ],
+    "qualifications": {
+      "required": [
+        "Experience in frontend software engineering, with a track record of delivering production-ready applications.",
+        "Bachelor’s degree in Computer Science, Engineering, or a related field, or equivalent work experience.",
+        "Proficiency in HTML, CSS, JavaScript, and React.",
+        "Understanding of frontend build tools, package managers, and CI/CD pipelines.",
+        "Strong problem-solving skills and the ability to debug complex frontend issues.",
+        "Effective communication skills, with the ability to collaborate across engineering, product, and design teams.",
+        "Passion for building intuitive, high-quality user interfaces and continuously improving frontend performance."
+      ],
+      "nice_to_have": [
+        "Experience working with TypeScript.",
+        "Knowledge of frontend testing frameworks, especially Playwright.",
+        "Familiarity with REST or other API interaction patterns.",
+        "Exposure to design systems and component-based architecture."
+      ]
+    },
+    "compensation": {
+      "currency": "USD",
+      "range_min": 140000,
+      "range_max": 180000,
+      "notes": "The actual offer, reflecting the total compensation package and benefits, will be determined by a number of factors including the applicant's experience, knowledge, skills, and abilities, as well as internal equity among our team."
     }
   }
 ]
