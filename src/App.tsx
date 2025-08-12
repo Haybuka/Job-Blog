@@ -24,24 +24,27 @@ function App() {
           height={'100vh'}
           bgcolor={'#f8f9fa'}
         >
-          <Grid container sx={{ overflowY: 'scroll' }} gap={{ md: 5, lg: 10 }}>
-            <Grid size={3} sx={{ overflowY: 'scroll' }}>
+          <Grid container sx={{ overflowY: 'scroll' }} gap={2}>
+            <Grid size={4} sx={{ overflowY: 'scroll' }}>
               <Box sx={{ overflowY: 'scroll', height: '100vh' }}>
                 {jobPosted.map((job) => (
-                  <JobCard handleJob={handleJobPageClick} job={job} isCurrent={job.job_id === jobId}/>
+                  <JobCard
+                    handleJob={handleJobPageClick}
+                    job={job}
+                    isCurrent={job.job_id === jobId}
+                  />
                 ))}
               </Box>
             </Grid>
 
-            <Grid size={8}>
+            <Grid size={7}>
               <Box
                 border={1}
                 borderColor={'#dadee2'}
                 borderRadius={3}
                 sx={{ overflowY: 'scroll', height: '100vh' }}
               >
-                <JobDetail job={findJobSelected}/>
-               
+                <JobDetail job={findJobSelected} />
               </Box>
             </Grid>
           </Grid>

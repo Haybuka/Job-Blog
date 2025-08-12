@@ -1,14 +1,15 @@
-import { Box, Chip, Grid, Typography } from '@mui/material';
+import { Box, Button, Chip, Grid, Typography } from '@mui/material';
 import type { JobType } from '../../api/types';
 import SectionWrapper from '../section_wrapper';
 import CheckRound from '../../Icons/check-round';
+import formatNumber from '../../lib/formatter';
 type JobDetailProp = {
   job: JobType;
 };
 
 const JobDetail = ({ job }: JobDetailProp) => {
   return (
-    <>
+    <Box >
       <SectionWrapper>
         <Box
           display={'flex'}
@@ -32,6 +33,9 @@ const JobDetail = ({ job }: JobDetailProp) => {
         </Box>
       </SectionWrapper>
       <SectionWrapper>
+        <Typography component={'p'} fontWeight={400} mb={4}>
+          {job.job_description}
+        </Typography>
         <Box component={'article'} mb={6}>
           <Typography fontWeight={600} fontSize={'h5'} mb={3}>
             Your Qualifications for this Job :
@@ -115,7 +119,44 @@ const JobDetail = ({ job }: JobDetailProp) => {
           </ul>
         </Box>
       </SectionWrapper>
-    </>
+      <SectionWrapper>
+        <Typography variant="h5" fontWeight={600} mb={4}>
+          Base Pay Range
+        </Typography>
+        <Box
+          p={4}
+          bgcolor={'#c7dbee7e'}
+          borderRadius={5}
+          border={1}
+          borderColor={'#dadee2'}
+        >
+          <Box display={'flex'} alignItems={'center'} gap={1} color={'#40916c'}>
+            <Typography variant="h5">
+              {formatNumber(
+                Number(job.compensation.range_min),
+                job.compensation.currency
+              )}
+            </Typography>
+            <Typography>-</Typography>
+            <Typography variant="h5">
+              {formatNumber(
+                Number(job.compensation.range_max),
+                job.compensation.currency
+              )}
+            </Typography>
+            /yr
+          </Box>
+          <Typography>{job.location.country}</Typography>
+        </Box>
+      </SectionWrapper>
+      <SectionWrapper>
+       <Box textAlign={'center'}>
+         <Button variant="contained" color="info">
+          Apply for this job
+        </Button>
+       </Box>
+      </SectionWrapper>
+    </Box>
   );
 };
 
