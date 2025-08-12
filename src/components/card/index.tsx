@@ -4,6 +4,8 @@ import type { JobType } from '../../api/types';
 
 type JobCardProp = {
   job: JobType;
+  handleJob : (id:number) => void;
+  isCurrent : boolean
 };
 
 const Item = styled(Box)(() => ({
@@ -16,7 +18,7 @@ const Item = styled(Box)(() => ({
   },
 }));
 
-const JobCard = ({ job }: JobCardProp) => {
+const JobCard = ({ job,handleJob ,isCurrent}: JobCardProp) => {
   const {
     job_id,
     job_title,
@@ -27,7 +29,7 @@ const JobCard = ({ job }: JobCardProp) => {
     role_summary,
   } = job;
   return (
-    <Item key={job_id} p={2} borderBottom={0.05} borderColor={'#dadee2'}>
+    <Item key={job_id} p={2} borderBottom={0.05} borderColor={'#dadee2'} onClick={() => handleJob(job_id)} bgcolor={isCurrent?'#dee3e8 !important':'#fff'}>
       <Box display={'flex'} alignItems={'center'} gap={1}>
         <Typography variant="h6" fontWeight={600}>
           {job_title}
@@ -38,7 +40,6 @@ const JobCard = ({ job }: JobCardProp) => {
             : employment_type}
         </Typography>
       </Box>
-
       <Typography variant="body2" display={'none'}>
         {employment_type}
       </Typography>
