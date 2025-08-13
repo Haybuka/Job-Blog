@@ -1,10 +1,11 @@
-import { Box, Tabs, Tab } from '@mui/material';
+import { Box,Tabs,Tab } from '@mui/material';
 import jobPosted from '../jobs.json';
 import Header from './components/header';
 import JobListing from './pages/JobListing';
 import { useState } from 'react';
 import JobCreateForm from './pages/JobCreating';
 import { CustomTabPanel } from './components/CustomTabs';
+
 
 function a11yProps(index: number) {
   return {
@@ -14,7 +15,7 @@ function a11yProps(index: number) {
 }
 
 function App() {
-  const [value, setValue] = useState(0);
+    const [value, setValue] = useState(0);
 
   const handleChange = (_: React.SyntheticEvent, newValue: number) => {
     setValue(newValue);
@@ -36,8 +37,10 @@ function App() {
         <JobCreateForm />
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
-        <JobListing job={jobPosted} />
+            <JobListing job={jobPosted} />
+
       </CustomTabPanel>
+   
     </>
   );
 }
