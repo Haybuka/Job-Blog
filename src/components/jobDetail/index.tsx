@@ -141,7 +141,7 @@ const JobDetail = ({ job, isDialog, handleClose }: JobDetailProp) => {
           border={1}
           borderColor={'#dadee2'}
         >
-          <Box display={'flex'} alignItems={'center'} gap={1} color={'#40916c'}>
+          <Box display={{xs:'block', lg:'flex'}} alignItems={'center'} gap={1} color={'#40916c'}>
             <Typography variant="h5">
               {formatNumber(
                 Number(job.compensation.range_min),
@@ -153,9 +153,9 @@ const JobDetail = ({ job, isDialog, handleClose }: JobDetailProp) => {
               {formatNumber(
                 Number(job.compensation.range_max),
                 job.compensation.currency
-              )}
+              )}  /yr
             </Typography>
-            /yr
+          
           </Box>
           <Typography>{job.location.country}</Typography>
         </Box>

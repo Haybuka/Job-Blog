@@ -36,7 +36,7 @@ const JobListing = ({ job }: JobListingProp) => {
     <Box component={'section'} position={'relative'}>
       <Box
         component={'article'}
-        px={{ xs: 4, lg: 10 }}
+        px={{ xs: 1, lg: 10 }}
         py={4}
         height={'100vh'}
         bgcolor={'#f8f9fa'}
@@ -62,7 +62,7 @@ const JobListing = ({ job }: JobListingProp) => {
               sx={{ overflowY: 'scroll', height: '100vh' }}
               display={{ xs: 'none', lg: 'block' }}
             >
-              <JobDetail job={findJobSelected} handleClose={handleClose}/>
+              <JobDetail job={findJobSelected} handleClose={handleClose} />
             </Box>
             <Box display={{ xs: 'block', lg: 'none' }}>
               <Dialog
@@ -71,15 +71,19 @@ const JobListing = ({ job }: JobListingProp) => {
                 scroll={scroll}
                 aria-labelledby="scroll-dialog-title"
                 aria-describedby="scroll-dialog-description"
-                sx={{ display: { xs: 'block', lg: 'none' } }}
+                sx={{ display: { xs: 'block', lg: 'none' },  }}
+               
               >
-                <JobDetail job={findJobSelected} isDialog handleClose={handleClose} />
+                <JobDetail
+                  job={findJobSelected}
+                  isDialog
+                  handleClose={handleClose}
+                />
               </Dialog>
             </Box>
           </Grid>
         </Grid>
       </Box>
-     
     </Box>
   );
 };
