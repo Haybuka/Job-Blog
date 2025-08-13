@@ -2,6 +2,8 @@ import { useState } from 'react';
 import { getDatabase, ref, set } from 'firebase/database';
 import { Box, Button, TextField } from '@mui/material';
 import app from '../../firebase';
+import jobs from '../../../jobs.json';
+import { toast } from 'react-toastify';
 
 const JobCreateForm = () => {
   const database = getDatabase(app);
@@ -9,16 +11,21 @@ const JobCreateForm = () => {
   const [email, setEmail] = useState('');
 
   const saveToDatabase = () => {
-    set(ref(database, 'job' + '1'), {
-      username: name,
-      email: email,
-    })
-      .then((res) => {
-        console.log(res);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
+    try {
+      for (let index = 0; index < 2; index++) {
+        set(ref(database, `${jobs[index].job_id}`), {
+          ...jobs[index],
+        })
+          .then(() => {
+            toast.success('Job listing updated');
+          })
+          .catch((err) => {
+            throw new Error(err);
+          });
+      }
+    } catch (error) {
+      console.log(error);
+    }
   };
 
   return (
