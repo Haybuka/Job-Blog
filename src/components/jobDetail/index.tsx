@@ -5,11 +5,12 @@ import CheckRound from '../../Icons/check-round';
 import formatNumber from '../../lib/formatter';
 type JobDetailProp = {
   job: JobType;
+  isDialog?: boolean;
 };
 
-const JobDetail = ({ job }: JobDetailProp) => {
+const JobDetail = ({ job, isDialog }: JobDetailProp) => {
   return (
-    <Box >
+    <Box>
       <SectionWrapper>
         <Box
           display={'flex'}
@@ -17,11 +18,20 @@ const JobDetail = ({ job }: JobDetailProp) => {
           alignItems={'center'}
         >
           <Box>
-            <Box display={'flex'} alignItems={'center'} gap={1}>
-              <Typography variant="h4" fontWeight={600}>
+            <Box
+              display={{ xs: 'block', xl: 'flex' }}
+              alignItems={'center'}
+              gap={1}
+            >
+              <Typography
+                variant="h4"
+                fontWeight={600}
+                display={'inline-block'}
+                fontSize={{ xs: 25, lg: 34 }}
+              >
                 {job.job_title}
               </Typography>
-              <Typography variant="body1" fontWeight={400}>
+              <Typography variant="body1" fontWeight={600} fontSize={12}>
                 {job.employment_type}
               </Typography>
             </Box>
@@ -40,9 +50,9 @@ const JobDetail = ({ job }: JobDetailProp) => {
           <Typography fontWeight={600} fontSize={'h5'} mb={3}>
             Your Qualifications for this Job :
           </Typography>
-          <Grid container sx={{ overflowY: 'scroll' }} gap={{ md: 5, lg: 10 }}>
+          <Grid container sx={{ overflowY: 'scroll' }} gap={{ md: 3, lg: 5 }}>
             {job.qualifications.required.map((task, id) => (
-              <Grid size={3}>
+              <Grid size={{ xs: 12, sm: 6, lg: isDialog ? 5 : 4 }}>
                 <Box
                   key={id}
                   display={'flex'}
@@ -65,9 +75,9 @@ const JobDetail = ({ job }: JobDetailProp) => {
           <Typography fontWeight={600} fontSize={'h5'} mb={3}>
             Nice to have :
           </Typography>
-          <Grid container sx={{ overflowY: 'scroll' }} gap={{ md: 5, lg: 10 }}>
+          <Grid container sx={{ overflowY: 'scroll' }} gap={{ md: 3, lg: 5 }}>
             {job.qualifications.nice_to_have.map((task, id) => (
-              <Grid size={3}>
+              <Grid size={{ xs: 12, sm: 6, lg: isDialog ? 5 : 4 }}>
                 <Box
                   key={id}
                   display={'flex'}
@@ -150,12 +160,29 @@ const JobDetail = ({ job }: JobDetailProp) => {
         </Box>
       </SectionWrapper>
       <SectionWrapper>
-       <Box textAlign={'center'}>
-         <Button variant="contained" color="info">
-          Apply for this job
-        </Button>
-       </Box>
+        <Box textAlign={'center'}>
+          <Button variant="contained" color="info">
+            Apply for this job
+          </Button>
+        </Box>
       </SectionWrapper>
+     {isDialog && (
+       <Box
+        position={'fixed'}
+        display={{ xs: 'block', lg: 'none' }}
+        bottom={0}
+        px={2}
+        py={1}
+        bgcolor={'#000'}
+        borderRadius={40}
+        m={0}
+        zIndex={1000}
+      >
+        <Typography fontSize={18} color="#fff">
+          X
+        </Typography>
+      </Box>
+     )}
     </Box>
   );
 };

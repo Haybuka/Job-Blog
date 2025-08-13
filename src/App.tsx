@@ -1,4 +1,4 @@
-import { Box, Button } from '@mui/material';
+import { Box, Button, } from '@mui/material';
 import jobPosted from '../jobs.json';
 import Header from './components/header';
 import JobListing from './pages/JobListing';
@@ -63,8 +63,9 @@ function App() {
           </Button>
         </Box>
       ) : (
-        <JobListing job={jobs.length > 0 ? jobs : jobPosted.slice(0, 3)} />
+        <JobListing job={jobs?.length > 0 ? jobs : jobPosted?.slice(0, 3)} />
       )}
+       
     </>
   );
 }

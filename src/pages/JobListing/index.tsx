@@ -1,31 +1,48 @@
-import { Box, Grid } from '@mui/material';
-import { useState } from 'react';
+import { Box, Dialog, Grid, type DialogProps } from '@mui/material';
+import { useEffect, useRef, useState } from 'react';
 import JobCard from '../../components/card';
 import JobDetail from '../../components/jobDetail';
 import type { JobType } from '../../api/types';
 
 type JobListingProp = {
-  job : JobType[]
-}
-const JobListing = ({job}:JobListingProp) => {
+  job: JobType[];
+};
+const JobListing = ({ job }: JobListingProp) => {
   const [jobId, setJobId] = useState<number>(job[0]?.job_id);
-  const handleJobPageClick = (id: number) => {
-    setJobId(id);
-  };
 
   const findJobSelected = job?.filter((job) => job?.job_id === jobId)[0];
+  const [open, setOpen] = useState(true);
+  const [scroll, setScroll] = useState<DialogProps['scroll']>('body');
 
+  const handleJobPageClick = (id: number) => {
+    setJobId(id);
+    setOpen(true);
+    setScroll('paper');
+  };
+  const handleClose = () => {
+    setOpen(false);
+  };
+
+  const descriptionElementRef = useRef<HTMLElement>(null);
+  useEffect(() => {
+    if (open) {
+      const { current: descriptionElement } = descriptionElementRef;
+      if (descriptionElement !== null) {
+        descriptionElement.focus();
+      }
+    }
+  }, [open]);
   return (
-    <Box component={'section'}>
+    <Box component={'section'} position={'relative'}>
       <Box
         component={'article'}
-        px={{ xs: 10, lg: 10 }}
+        px={{ xs: 4, lg: 10 }}
         py={4}
         height={'100vh'}
         bgcolor={'#f8f9fa'}
       >
         <Grid container sx={{ overflowY: 'scroll' }} gap={2}>
-          <Grid size={4} sx={{ overflowY: 'scroll' }}>
+          <Grid size={{ xs: 12, lg: 4 }} sx={{ overflowY: 'scroll' }}>
             <Box sx={{ overflowY: 'scroll', height: '100vh' }}>
               {job.map((job) => (
                 <JobCard
@@ -37,18 +54,32 @@ const JobListing = ({job}:JobListingProp) => {
             </Box>
           </Grid>
 
-          <Grid size={7}>
+          <Grid size={{ xs: 12, lg: 7 }}>
             <Box
               border={1}
               borderColor={'#dadee2'}
               borderRadius={3}
               sx={{ overflowY: 'scroll', height: '100vh' }}
+              display={{ xs: 'none', lg: 'block' }}
             >
               <JobDetail job={findJobSelected} />
+            </Box>
+            <Box display={{ xs: 'block', lg: 'none' }}>
+              <Dialog
+                open={open}
+                onClose={handleClose}
+                scroll={scroll}
+                aria-labelledby="scroll-dialog-title"
+                aria-describedby="scroll-dialog-description"
+                sx={{ display: { xs: 'block', lg: 'none' } }}
+              >
+                <JobDetail job={findJobSelected} isDialog />
+              </Dialog>
             </Box>
           </Grid>
         </Grid>
       </Box>
+     
     </Box>
   );
 };
