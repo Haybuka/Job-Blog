@@ -8,7 +8,7 @@ type JobListingProp = {
   job : JobType[]
 }
 const JobListing = ({job}:JobListingProp) => {
-  const [jobId, setJobId] = useState<number>(job[0].job_id);
+  const [jobId, setJobId] = useState<number>(job[0]?.job_id);
   const handleJobPageClick = (id: number) => {
     setJobId(id);
   };
@@ -31,7 +31,7 @@ const JobListing = ({job}:JobListingProp) => {
                 <JobCard
                   handleJob={handleJobPageClick}
                   job={job}
-                  isCurrent={job.job_id === jobId}
+                  isCurrent={job?.job_id === jobId}
                 />
               ))}
             </Box>

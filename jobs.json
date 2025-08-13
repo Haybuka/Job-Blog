@@ -220,7 +220,7 @@
     }
   },
   {
-    "job_id": 21,
+    "job_id": 6,
     "job_title": "Operations Manager",
     "department": "Operations",
     "location": {
@@ -270,7 +270,7 @@
     }
   },
   {
-    "job_id": 22,
+    "job_id": 7,
     "job_title": "Business Analyst",
     "department": "Business",
     "location": {
@@ -318,7 +318,7 @@
     }
   },
   {
-    "job_id": 23,
+    "job_id": 8,
     "job_title": "Marketing Manager",
     "department": "Marketing",
     "location": {
@@ -363,7 +363,7 @@
     }
   },
   {
-    "job_id": 24,
+    "job_id": 9,
     "job_title": "Human Resources Specialist",
     "department": "HR",
     "location": {
@@ -410,7 +410,7 @@
     }
   },
   {
-    "job_id": 25,
+    "job_id": 10,
     "job_title": "Supply Chain Coordinator",
     "department": "Logistics",
     "location": {
@@ -457,6 +457,453 @@
       "currency": "USD",
       "range_min": 65000,
       "range_max": 90000,
+      "notes": "Includes annual performance bonus."
+    }
+  },
+  {
+    "job_id": 11,
+    "job_title": "Business Operations Manager",
+    "department": "Operations",
+    "location": {
+      "city": "Chicago",
+      "state": "Illinois",
+      "country": "United States"
+    },
+    "employment_type": "On-site",
+    "job_description": "Oversee daily operations, streamline processes, and ensure efficiency across departments.",
+    "required_qualifications": ["MBA or equivalent", "5+ Years Experience"],
+    "required_skills": ["Leadership", "Data Analysis", "Project Management"],
+    "posting_date": "1d",
+    "application_deadline": "2025-09-10",
+    "contact_information": {
+      "name": "Michael Smith",
+      "email": "michael.smith@example.com",
+      "phone": "+1-555-2011"
+    },
+    "role_summary": "Responsible for managing core operational processes to ensure efficiency and scalability.",
+    "responsibilities": [
+      "Oversee daily business operations.",
+      "Analyze operational performance and recommend improvements.",
+      "Manage cross-functional teams."
+    ],
+    "qualifications": {
+      "required": [
+        "Proven experience in operations management.",
+        "Strong leadership skills.",
+        "Excellent communication abilities."
+      ],
+      "nice_to_have": [
+        "Experience in tech industry.",
+        "Six Sigma certification."
+      ]
+    },
+    "compensation": {
+      "currency": "USD",
+      "range_min": 85000,
+      "range_max": 110000,
+      "notes": "Includes performance bonus."
+    }
+  },
+  {
+    "job_id": 12,
+    "job_title": "Data Analyst",
+    "department": "Business Intelligence",
+    "location": {
+      "city": "Toronto",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "employment_type": "Hybrid",
+    "job_description": "Analyze business data to provide actionable insights and support strategic decisions.",
+    "required_qualifications": [
+      "B.SC in Statistics or related field",
+      "2+ Years Experience"
+    ],
+    "required_skills": ["SQL", "Tableau", "Python"],
+    "posting_date": "4d",
+    "application_deadline": "2025-09-15",
+    "contact_information": {
+      "name": "Sophia Lee",
+      "email": "sophia.lee@example.com",
+      "phone": "+1-555-2012"
+    },
+    "role_summary": "Work with stakeholders to identify trends, patterns, and opportunities using data analytics.",
+    "responsibilities": [
+      "Collect and clean data from multiple sources.",
+      "Build dashboards and reports.",
+      "Identify key metrics to support decision making."
+    ],
+    "qualifications": {
+      "required": [
+        "Experience with BI tools.",
+        "Strong SQL skills.",
+        "Analytical mindset."
+      ],
+      "nice_to_have": [
+        "Experience in financial data analysis.",
+        "Knowledge of cloud data warehouses."
+      ]
+    },
+    "compensation": {
+      "currency": "CAD",
+      "range_min": 65000,
+      "range_max": 80000,
+      "notes": "Includes health and dental benefits."
+    }
+  },
+  {
+    "job_id": 13,
+    "job_title": "Marketing Coordinator",
+    "department": "Marketing",
+    "location": {
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom"
+    },
+    "employment_type": "On-site",
+    "job_description": "Coordinate marketing campaigns, track performance, and assist with brand management.",
+    "required_qualifications": ["B.A in Marketing", "1+ Year Experience"],
+    "required_skills": ["Content Creation", "SEO", "Social Media Marketing"],
+    "posting_date": "5d",
+    "application_deadline": "2025-09-12",
+    "contact_information": {
+      "name": "Oliver Green",
+      "email": "oliver.green@example.com",
+      "phone": "+44-555-2013"
+    },
+    "role_summary": "Support the marketing team in planning and executing campaigns across multiple channels.",
+    "responsibilities": [
+      "Assist with campaign execution.",
+      "Monitor and report on marketing KPIs.",
+      "Coordinate with vendors and partners."
+    ],
+    "qualifications": {
+      "required": [
+        "Knowledge of marketing principles.",
+        "Strong organizational skills.",
+        "Excellent written and verbal communication."
+      ],
+      "nice_to_have": [
+        "Experience with Adobe Creative Suite.",
+        "Event planning experience."
+      ]
+    },
+    "compensation": {
+      "currency": "GBP",
+      "range_min": 28000,
+      "range_max": 35000,
+      "notes": "Opportunity for growth and training."
+    }
+  },
+  {
+    "job_id": 14,
+    "job_title": "Project Manager",
+    "department": "Operations",
+    "location": {
+      "city": "Sydney",
+      "state": "New South Wales",
+      "country": "Australia"
+    },
+    "employment_type": "Hybrid",
+    "job_description": "Manage projects from initiation to closure, ensuring they meet quality, budget, and timeline goals.",
+    "required_qualifications": ["PMP Certification", "4+ Years Experience"],
+    "required_skills": ["Agile", "Scrum", "Risk Management"],
+    "posting_date": "2d",
+    "application_deadline": "2025-09-20",
+    "contact_information": {
+      "name": "Amelia Brown",
+      "email": "amelia.brown@example.com",
+      "phone": "+61-555-2014"
+    },
+    "role_summary": "Lead cross-functional teams to deliver high-quality projects aligned with business objectives.",
+    "responsibilities": [
+      "Define project scope and objectives.",
+      "Manage budgets and timelines.",
+      "Mitigate project risks."
+    ],
+    "qualifications": {
+      "required": [
+        "Experience managing large projects.",
+        "Strong organizational skills.",
+        "Excellent stakeholder communication."
+      ],
+      "nice_to_have": ["Experience in software projects.", "Knowledge of Jira."]
+    },
+    "compensation": {
+      "currency": "AUD",
+      "range_min": 95000,
+      "range_max": 120000,
+      "notes": "Includes project completion bonus."
+    }
+  },
+  {
+    "job_id": 15,
+    "job_title": "Customer Support Specialist",
+    "department": "Customer Service",
+    "location": {
+      "city": "Berlin",
+      "state": "Berlin",
+      "country": "Germany"
+    },
+    "employment_type": "Remote",
+    "job_description": "Assist customers with inquiries, troubleshoot issues, and ensure a high level of satisfaction.",
+    "required_qualifications": ["B.A in Communications", "2+ Years Experience"],
+    "required_skills": [
+      "Problem Solving",
+      "CRM Software",
+      "Communication Skills"
+    ],
+    "posting_date": "6d",
+    "application_deadline": "2025-09-08",
+    "contact_information": {
+      "name": "Lukas Schmidt",
+      "email": "lukas.schmidt@example.com",
+      "phone": "+49-555-2015"
+    },
+    "role_summary": "Be the first point of contact for customer inquiries, resolving issues efficiently and effectively.",
+    "responsibilities": [
+      "Respond to customer queries.",
+      "Document support interactions.",
+      "Collaborate with technical teams for issue resolution."
+    ],
+    "qualifications": {
+      "required": [
+        "Experience in customer service.",
+        "Strong problem-solving abilities.",
+        "Fluent in English and German."
+      ],
+      "nice_to_have": [
+        "Experience in SaaS support.",
+        "Knowledge of helpdesk tools."
+      ]
+    },
+    "compensation": {
+      "currency": "EUR",
+      "range_min": 32000,
+      "range_max": 40000,
+      "notes": "Includes remote work allowance."
+    }
+  },
+  {
+    "job_id": 16,
+    "job_title": "Financial Analyst",
+    "department": "Finance",
+    "location": {
+      "city": "Dubai",
+      "state": "Dubai",
+      "country": "United Arab Emirates"
+    },
+    "employment_type": "On-site",
+    "job_description": "Analyze financial data, create reports, and assist in budgeting and forecasting.",
+    "required_qualifications": [
+      "B.SC in Finance or Accounting",
+      "3+ Years Experience"
+    ],
+    "required_skills": ["Excel", "Financial Modeling", "Budgeting"],
+    "posting_date": "3d",
+    "application_deadline": "2025-09-18",
+    "contact_information": {
+      "name": "Fatima Al-Farsi",
+      "email": "fatima.alfarsi@example.com",
+      "phone": "+971-555-2016"
+    },
+    "role_summary": "Support business decisions through financial planning, analysis, and reporting.",
+    "responsibilities": [
+      "Prepare monthly financial reports.",
+      "Conduct variance analysis.",
+      "Assist in budget preparation."
+    ],
+    "qualifications": {
+      "required": [
+        "Strong financial analysis skills.",
+        "Proficiency in Excel.",
+        "Knowledge of accounting principles."
+      ],
+      "nice_to_have": ["CFA certification.", "Experience with ERP systems."]
+    },
+    "compensation": {
+      "currency": "AED",
+      "range_min": 180000,
+      "range_max": 240000,
+      "notes": "Includes housing allowance."
+    }
+  },
+  {
+    "job_id": 17,
+    "job_title": "Software QA Engineer",
+    "department": "Technology",
+    "location": {
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India"
+    },
+    "employment_type": "Hybrid",
+    "job_description": "Test software applications to ensure quality and identify bugs before release.",
+    "required_qualifications": [
+      "B.Tech in Computer Science",
+      "2+ Years Experience"
+    ],
+    "required_skills": ["Automation Testing", "Selenium", "API Testing"],
+    "posting_date": "1d",
+    "application_deadline": "2025-09-14",
+    "contact_information": {
+      "name": "Ravi Kumar",
+      "email": "ravi.kumar@example.com",
+      "phone": "+91-555-2017"
+    },
+    "role_summary": "Ensure product quality by designing and executing test plans.",
+    "responsibilities": [
+      "Create test plans and cases.",
+      "Perform manual and automated testing.",
+      "Report and track defects."
+    ],
+    "qualifications": {
+      "required": [
+        "Experience with testing tools.",
+        "Strong analytical skills.",
+        "Attention to detail."
+      ],
+      "nice_to_have": ["Experience with Cypress.", "Knowledge of CI/CD."]
+    },
+    "compensation": {
+      "currency": "INR",
+      "range_min": 600000,
+      "range_max": 900000,
+      "notes": "Performance-based bonus available."
+    }
+  },
+  {
+    "job_id": 18,
+    "job_title": "Sales Executive",
+    "department": "Sales",
+    "location": {
+      "city": "Paris",
+      "state": "Île-de-France",
+      "country": "France"
+    },
+    "employment_type": "On-site",
+    "job_description": "Identify and acquire new clients while maintaining relationships with existing customers.",
+    "required_qualifications": [
+      "B.A in Business Administration",
+      "2+ Years Experience"
+    ],
+    "required_skills": ["Negotiation", "CRM Tools", "Networking"],
+    "posting_date": "2d",
+    "application_deadline": "2025-09-09",
+    "contact_information": {
+      "name": "Claire Dupont",
+      "email": "claire.dupont@example.com",
+      "phone": "+33-555-2018"
+    },
+    "role_summary": "Drive revenue by developing and closing new business opportunities.",
+    "responsibilities": [
+      "Meet and exceed sales targets.",
+      "Develop sales strategies.",
+      "Maintain strong customer relationships."
+    ],
+    "qualifications": {
+      "required": [
+        "Strong sales track record.",
+        "Excellent interpersonal skills.",
+        "Fluent in French and English."
+      ],
+      "nice_to_have": [
+        "Experience in B2B sales.",
+        "Knowledge of the local market."
+      ]
+    },
+    "compensation": {
+      "currency": "EUR",
+      "range_min": 35000,
+      "range_max": 50000,
+      "notes": "Includes commission."
+    }
+  },
+  {
+    "job_id": 19,
+    "job_title": "Human Resources Officer",
+    "department": "Human Resources",
+    "location": {
+      "city": "Singapore",
+      "state": "Central",
+      "country": "Singapore"
+    },
+    "employment_type": "On-site",
+    "job_description": "Handle employee relations, recruitment, and HR policy implementation.",
+    "required_qualifications": [
+      "B.SC in Human Resources",
+      "3+ Years Experience"
+    ],
+    "required_skills": ["Recruitment", "Conflict Resolution", "HR Software"],
+    "posting_date": "3d",
+    "application_deadline": "2025-09-22",
+    "contact_information": {
+      "name": "David Lim",
+      "email": "david.lim@example.com",
+      "phone": "+65-555-2019"
+    },
+    "role_summary": "Ensure HR operations run smoothly and align with company goals.",
+    "responsibilities": [
+      "Oversee recruitment process.",
+      "Manage employee benefits.",
+      "Ensure compliance with labor laws."
+    ],
+    "qualifications": {
+      "required": [
+        "Experience in HR management.",
+        "Strong interpersonal skills.",
+        "Knowledge of employment laws."
+      ],
+      "nice_to_have": [
+        "HR certification (e.g., SHRM).",
+        "Experience with HR analytics."
+      ]
+    },
+    "compensation": {
+      "currency": "SGD",
+      "range_min": 55000,
+      "range_max": 70000,
+      "notes": "Includes health benefits."
+    }
+  },
+  {
+    "job_id": 20,
+    "job_title": "UI/UX Designer",
+    "department": "Design",
+    "location": {
+      "city": "Los Angeles",
+      "state": "California",
+      "country": "United States"
+    },
+    "employment_type": "Hybrid",
+    "job_description": "Design engaging and user-friendly interfaces for web and mobile applications.",
+    "required_qualifications": ["B.A in Design", "2+ Years Experience"],
+    "required_skills": ["Figma", "User Research", "Wireframing"],
+    "posting_date": "5d",
+    "application_deadline": "2025-09-11",
+    "contact_information": {
+      "name": "Emily Davis",
+      "email": "emily.davis@example.com",
+      "phone": "+1-555-2020"
+    },
+    "role_summary": "Collaborate with product teams to design intuitive and visually appealing digital experiences.",
+    "responsibilities": [
+      "Create wireframes and prototypes.",
+      "Conduct usability testing.",
+      "Collaborate with developers."
+    ],
+    "qualifications": {
+      "required": [
+        "Strong portfolio of design work.",
+        "Proficiency in design tools.",
+        "Understanding of UX principles."
+      ],
+      "nice_to_have": ["Experience in motion design.", "Knowledge of HTML/CSS."]
+    },
+    "compensation": {
+      "currency": "USD",
+      "range_min": 75000,
+      "range_max": 95000,
       "notes": "Includes annual performance bonus."
     }
   }

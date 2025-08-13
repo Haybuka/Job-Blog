@@ -12,7 +12,7 @@ const JobCreateForm = () => {
 
   const saveToDatabase = () => {
     try {
-      for (let index = 0; index < 2; index++) {
+      for (let index = 0; index <= jobs.length; index++) {
         set(ref(database, `posting/job/${jobs[index].job_id}`), {
           ...jobs[index],
         })
