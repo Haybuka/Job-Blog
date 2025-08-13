@@ -62,7 +62,7 @@ const JobListing = ({ job }: JobListingProp) => {
               sx={{ overflowY: 'scroll', height: '100vh' }}
               display={{ xs: 'none', lg: 'block' }}
             >
-              <JobDetail job={findJobSelected} />
+              <JobDetail job={findJobSelected} handleClose={handleClose}/>
             </Box>
             <Box display={{ xs: 'block', lg: 'none' }}>
               <Dialog
@@ -73,7 +73,7 @@ const JobListing = ({ job }: JobListingProp) => {
                 aria-describedby="scroll-dialog-description"
                 sx={{ display: { xs: 'block', lg: 'none' } }}
               >
-                <JobDetail job={findJobSelected} isDialog />
+                <JobDetail job={findJobSelected} isDialog handleClose={handleClose} />
               </Dialog>
             </Box>
           </Grid>

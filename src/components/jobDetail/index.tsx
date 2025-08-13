@@ -6,9 +6,10 @@ import formatNumber from '../../lib/formatter';
 type JobDetailProp = {
   job: JobType;
   isDialog?: boolean;
+  handleClose: () => void;
 };
 
-const JobDetail = ({ job, isDialog }: JobDetailProp) => {
+const JobDetail = ({ job, isDialog, handleClose }: JobDetailProp) => {
   return (
     <Box>
       <SectionWrapper>
@@ -166,23 +167,24 @@ const JobDetail = ({ job, isDialog }: JobDetailProp) => {
           </Button>
         </Box>
       </SectionWrapper>
-     {isDialog && (
-       <Box
-        position={'fixed'}
-        display={{ xs: 'block', lg: 'none' }}
-        bottom={0}
-        px={2}
-        py={1}
-        bgcolor={'#000'}
-        borderRadius={40}
-        m={0}
-        zIndex={1000}
-      >
-        <Typography fontSize={18} color="#fff">
-          X
-        </Typography>
-      </Box>
-     )}
+      {isDialog && (
+        <Box
+          position={'fixed'}
+          display={{ xs: 'block', lg: 'none' }}
+          bottom={0}
+          px={2}
+          py={1}
+          bgcolor={'#000'}
+          borderRadius={40}
+          m={0}
+          zIndex={1000}
+          onClick={handleClose}
+        >
+          <Typography fontSize={18} color="#fff">
+            X
+          </Typography>
+        </Box>
+      )}
     </Box>
   );
 };
