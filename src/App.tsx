@@ -1,55 +1,43 @@
-import { Box, Grid } from '@mui/material';
-// import './App.css';
+import { Box, Tabs, Tab } from '@mui/material';
 import jobPosted from '../jobs.json';
-import JobCard from './components/card';
 import Header from './components/header';
+import JobListing from './pages/JobListing';
 import { useState } from 'react';
-import JobDetail from './components/jobDetail';
+import JobCreateForm from './pages/JobCreating';
+import { CustomTabPanel } from './components/CustomTabs';
+
+function a11yProps(index: number) {
+  return {
+    id: `simple-tab-${index}`,
+    'aria-controls': `simple-tabpanel-${index}`,
+  };
+}
 
 function App() {
-  const [jobId, setJobId] = useState<number>(jobPosted[0].job_id);
-  const handleJobPageClick = (id: number) => {
-    setJobId(id);
-  };
+  const [value, setValue] = useState(0);
 
-  const findJobSelected = jobPosted?.filter((job) => job?.job_id === jobId)[0];
+  const handleChange = (_: React.SyntheticEvent, newValue: number) => {
+    setValue(newValue);
+  };
   return (
     <>
       <Header />
-      <Box component={'section'}>
-        <Box
-          component={'article'}
-          px={{ xs: 10, lg: 10 }}
-          py={4}
-          height={'100vh'}
-          bgcolor={'#f8f9fa'}
+      <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
+        <Tabs
+          value={value}
+          onChange={handleChange}
+          aria-label="basic tabs example"
         >
-          <Grid container sx={{ overflowY: 'scroll' }} gap={2}>
-            <Grid size={4} sx={{ overflowY: 'scroll' }}>
-              <Box sx={{ overflowY: 'scroll', height: '100vh' }}>
-                {jobPosted.map((job) => (
-                  <JobCard
-                    handleJob={handleJobPageClick}
-                    job={job}
-                    isCurrent={job.job_id === jobId}
-                  />
-                ))}
-              </Box>
-            </Grid>
-
-            <Grid size={7}>
-              <Box
-                border={1}
-                borderColor={'#dadee2'}
-                borderRadius={3}
-                sx={{ overflowY: 'scroll', height: '100vh' }}
-              >
-                <JobDetail job={findJobSelected} />
-              </Box>
-            </Grid>
-          </Grid>
-        </Box>
+          <Tab label="Creating" {...a11yProps(0)} />
+          <Tab label="Listing" {...a11yProps(1)} />
+        </Tabs>
       </Box>
+      <CustomTabPanel value={value} index={0}>
+        <JobCreateForm />
+      </CustomTabPanel>
+      <CustomTabPanel value={value} index={1}>
+        <JobListing job={jobPosted} />
+      </CustomTabPanel>
     </>
   );
 }
