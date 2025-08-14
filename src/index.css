@@ -1,14 +1,15 @@
 body {
   margin: 0;
-  font-family:
-    -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
-    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
 
 *::selection {
@@ -16,8 +17,12 @@ code {
   color: #5f0f40;
 }
 
-.tOsDo.MuiDialog-paperScrollBody{
-max-width: calc(100% - 20px) !important;
+.tOsDo.MuiDialog-paperScrollBody,
+.fDcjca.MuiDialog-paperScrollBody {
+  max-width: calc(100% - 20px) !important;
 }
 
-.tOsDo{margin: 20px !important;}
+.tOsDo,
+.fDcjca {
+  margin: 20px !important;
+}
