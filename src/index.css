@@ -15,3 +15,9 @@ code {
   background-color: transparent;
   color: #5f0f40;
 }
+
+.tOsDo.MuiDialog-paperScrollBody{
+max-width: calc(100% - 20px) !important;
+}
+
+.tOsDo{margin: 20px !important;}
