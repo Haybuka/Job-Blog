@@ -8,6 +8,7 @@ import { getDatabase, ref, child, get } from 'firebase/database';
 import app from './firebase';
 import type { JobType } from './api/types';
 import { toast } from 'react-toastify';
+import Filter from './pages/Filter';
 
 function App() {
   const [jobs, setJobs] = useState<JobType[]>([]);
@@ -46,6 +47,7 @@ function App() {
   return (
     <>
       <Header />
+      <Filter />
       {loading ? (
         <Box
           height={'100%'}
