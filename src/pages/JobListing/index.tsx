@@ -40,10 +40,11 @@ const JobListing = ({ job }: JobListingProp) => {
         py={4}
         height={'100vh'}
         bgcolor={'#f8f9fa'}
+        sx={{overflowY : 'scroll'}}
       >
         <Grid container sx={{ overflowY: 'scroll' }} gap={2}>
           <Grid size={{ xs: 12, lg: 4 }} sx={{ overflowY: 'scroll' }}>
-            <Box sx={{ overflowY: 'scroll', height: '100vh' }}>
+            <Box sx={{ overflowY: 'scroll', height: '100%' }}>
               {job.map((job) => (
                 <JobCard
                   handleJob={handleJobPageClick}
@@ -59,7 +60,7 @@ const JobListing = ({ job }: JobListingProp) => {
               border={1}
               borderColor={'#dadee2'}
               borderRadius={3}
-              sx={{ overflowY: 'scroll', height: '100vh' }}
+              sx={{ overflowY: 'scroll',  }}
               display={{ xs: 'none', lg: 'block' }}
             >
               <JobDetail job={findJobSelected} handleClose={handleClose} />
